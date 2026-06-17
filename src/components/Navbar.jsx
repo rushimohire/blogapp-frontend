@@ -13,9 +13,7 @@ function Navbar() {
     localStorage.removeItem("token");
     localStorage.removeItem("user");
 
-    navigate("/login");
-
-    window.location.reload();
+    window.location.href = "/";
   };
 
   return (
